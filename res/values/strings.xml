@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">VCE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="OnloginBtnclick">OnLoginBttonClick</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_attendance">AttendanceActivity</string>
+    <string name="title_activity_detailed_attendance">DetailedAttendanceActivity</string>
+    <string name="title_activity_dayby_day">DaybyDayActivity</string>
+
+</resources>

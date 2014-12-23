@@ -1,0 +1,200 @@
+<RelativeLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abc"
+    tools:context="${relativePackage}.${activityClass}" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="10dp"
+        android:text="Attendance Details"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="ca-app-pub-3585437342896413/9581018089" >
+    </com.google.android.gms.ads.AdView>
+
+    <TextView
+        android:id="@+id/YS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="28dp"
+        android:text=" Year - Semester "
+        android:textStyle="bold"
+        android:textColor="@color/white" 
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/percentsge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/YS"
+        android:layout_alignBottom="@+id/YS"
+        android:layout_marginLeft="18dp"
+        android:layout_toRightOf="@+id/YS"
+        android:text="  In   %  "
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+//41
+    <TextView
+        android:id="@+id/tb1t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="120dp"
+        android:text="-"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tb1d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="120dp"
+        android:onClick="Onclick_b1"
+        android:text="-"
+        android:textColor="@color/Green"
+        android:textStyle="bold" />
+
+    //42
+    <TextView
+        android:id="@+id/tb2t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="170dp"
+        android:text="-"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tb2d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="170dp"
+        android:onClick="Onclick_b2"
+        android:text="-"
+        android:textColor="@color/Green" 
+        android:textStyle="bold"/>
+
+    //31
+    <TextView
+        android:id="@+id/tb3t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="220dp"
+        android:text="-"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tb3d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="220dp"
+        android:onClick="Onclick_b3"
+        android:text="-"
+        android:textColor="@color/Green" 
+        android:textStyle="bold"/>
+    
+    //32
+    <TextView
+        android:id="@+id/tb4t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="270dp"
+        android:text="-"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tb4d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="270dp"
+        android:onClick="Onclick_b4"
+        android:text="-"
+        android:textColor="@color/Green" 
+        android:textStyle="bold"/>
+
+    //21
+    <TextView
+        android:id="@+id/tb5t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="320dp"
+        android:text="-"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tb5d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="320dp"
+        android:onClick="Onclick_b5"
+        android:text="-"
+        android:textColor="@color/Green" 
+        android:textStyle="bold"/>
+
+    //22
+    <TextView
+        android:id="@+id/tb6t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="370dp"
+        android:text="-"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tb6d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="370dp"
+        android:onClick="Onclick_b6"
+        android:text="-"
+        android:textColor="@color/Green" 
+        android:textStyle="bold"/>
+    
+    //1
+    <TextView
+        android:id="@+id/tb7t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="420dp"
+        android:text="-"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tb7d"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:layout_marginTop="420dp"
+        android:onClick="Onclick_b7"
+        android:text="-"
+        android:textColor="@color/Green" 
+        android:textStyle="bold"/>
+
+</RelativeLayout>
